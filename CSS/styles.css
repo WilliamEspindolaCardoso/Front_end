@@ -10,3 +10,34 @@ h3 {
 .minha_classe-1 {
     color: rgb(236, 252, 21);
 }
+
+div {
+    margin-bottom: 10px;
+}
+
+input, label {
+    display: block;
+}
+
+.radio label,
+.radio input {
+    display: inline-block;
+}
+
+.check label,
+.check input {
+    display: inline-block;
+}
+
+/*.nome usado para CLASSE*/
+/*#nome usado para ID*/
+
+#tre input {
+    border-color: blueviolet;
+    border-width: 20px;
+}
+
+#tre label {
+    font-size: 30px;
+}
+
