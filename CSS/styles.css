@@ -29,8 +29,8 @@ input, label {
     display: inline-block;
 }
 
-/*.nome usado para CLASSE*/
-/*#nome usado para ID*/
+/*  .  nome usado para CLASSE*/
+/*  #  nome usado para ID*/
 
 #tre input {
     border-color: blueviolet;
@@ -39,5 +39,30 @@ input, label {
 
 #tre label {
     font-size: 30px;
+}
+
+
+h3 {
+    color: red;
+    text-align: center;
+}
+
+@media screen and (max-width: 200px) {
+    h3 {color: blue;}
+    font-size: 20px;    
+}
+
+@media screen and {min-width: 400px;
+    h3 {color: darkgreen;}   
+
+}
+
+@media screen and (orientation: landscape){
+    h3 {
+        color: blue;
+        display: block;}
+    
+    h2 {
+        display: none;}
 }
 
